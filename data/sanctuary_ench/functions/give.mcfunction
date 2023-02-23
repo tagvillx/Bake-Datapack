@@ -20,7 +20,7 @@ give @s bow{sanctuary_enchs:[{id:"meteor",lvl:1s}]}
 give @s crossbow{sanctuary_enchs:[{id:"star_burst",lvl:1s}]}
 
 # 增生
-give @s trident{sanctuary_enchs:[{id:"copy",lvl:1s}],state:"true"}
+give @s trident{sanctuary_enchs:[{id:"copy",lvl:1s}],state:"real"}
 
 # 橫掃
 give @s trident{sanctuary_enchs:[{id:"sweeping",lvl:1s}]}
