@@ -1,0 +1,1 @@
+execute as @e[type=trident,predicate=sanctuary_ench:trident_sweep] at @s run function sanctuary_ench:trident_sweep/sweep

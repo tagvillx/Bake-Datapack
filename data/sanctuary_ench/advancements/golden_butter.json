@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "damage":{
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "item": {
+                    "nbt": "{sanctuary_enchs:[{id:\"golden_butter\"}]}"
+                },
+                "durability": 0
+            }
+        }
+    },
+    "rewards": {"function": "sanctuary_ench:golden_butter/broken"}
+}

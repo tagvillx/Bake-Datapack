@@ -1,0 +1,2 @@
+function sanctuary_ench:trident_sweep/tick
+function sanctuary_ench:trident_copy/tick
