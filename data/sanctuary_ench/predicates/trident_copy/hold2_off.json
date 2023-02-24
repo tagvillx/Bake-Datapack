@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "count": 2,
+                "nbt": "{sanctuary_enchs:[{id:\"copy\"}]}"
+            }
+        }
+    }
+}

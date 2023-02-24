@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "nbt": "{sanctuary_enchs:[{id:\"copy\"}],state:\"semireal\"}"
+            }
+        }
+    }
+}
