@@ -6,6 +6,6 @@ data modify entity @e[type=item,tag=trident_sweep,limit=1] Item set from entity 
 particle sweep_attack ~ ~ ~ 0 0 0 0.1 100
 
 # 傷害
-execute on origin at @s as @e[distance=0.5..6,type=#mobs] run damage @s 5 minecraft:trident
+execute on origin at @s as @e[distance=0.5..6,type=#mobs] run damage @s 5 minecraft:trident by @s
 
 kill @s
