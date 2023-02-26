@@ -10,4 +10,4 @@ scoreboard objectives add trident_copy minecraft.used:minecraft.trident "三叉�
 scoreboard objectives add trident_sweep minecraft.used:minecraft.trident "三叉戟使用次數 橫掃"
 
 # 會用到
-scoreboard objectives add trident_copy_droup minecraft.dropped:minecraft.trident "三叉戟丟棄次數 增生"
+scoreboard objectives add trident_copy_drop minecraft.dropped:minecraft.trident "三叉戟丟棄次數 增生"
