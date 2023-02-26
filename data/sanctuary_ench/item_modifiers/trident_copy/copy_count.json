@@ -1,5 +1,23 @@
 [
     {
+        "function": "set_damage",
+        "damage": -0.0045,
+        "add": true,
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{sanctuary_enchs:[{id:\"copy\"}],state:\"fake\"}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
         "function": "copy_nbt",
         "source": {
             "type": "context",

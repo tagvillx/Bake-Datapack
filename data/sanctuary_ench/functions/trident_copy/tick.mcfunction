@@ -7,3 +7,5 @@ execute as @a[scores={trident_copy_droup=1..}] at @s if entity @e[type=item,sort
 execute as @a[scores={trident_copy_droup=1..}] at @s as @e[type=item,sort=nearest,distance=..4,predicate=sanctuary_ench:trident_copy/fake] at @s run function sanctuary_ench:trident_copy/fake_dropped
 scoreboard players reset @a trident_copy_droup
 
+execute as @e[type=item_display,tag=trident_bullet] at @s run function sanctuary_ench:trident_copy/bullet
+
