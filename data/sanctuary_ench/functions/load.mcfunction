@@ -11,3 +11,7 @@ scoreboard objectives add trident_sweep minecraft.used:minecraft.trident "三叉
 
 # 會用到
 scoreboard objectives add trident_copy_drop minecraft.dropped:minecraft.trident "三叉戟丟棄次數 增生"
+
+# 重擊
+scoreboard objectives add motion_y dummy "是否下墜(重擊)"
+scoreboard objectives add axe_time dummy "斧頭持續時間"
