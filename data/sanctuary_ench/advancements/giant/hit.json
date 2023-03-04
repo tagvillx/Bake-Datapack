@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "hit":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "sanctuary_ench:giant/is_criting"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "sanctuary_ench:giant/hit"
+    }
+}
