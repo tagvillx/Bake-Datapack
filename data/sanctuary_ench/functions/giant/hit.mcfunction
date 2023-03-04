@@ -1,3 +1,3 @@
 advancement revoke @s only sanctuary_ench:giant/hit
-execute as @s[scores={motion_y=..0}] at @s summon minecraft:item_display if entity @s[type=item_display] run function sanctuary_ench:giant/axe_init
-function sanctuary_ench:giant/axe_init
+execute store result score @s motion_y run data get entity @s Motion[1] 100
+execute as @s[scores={motion_y=..0}] at @s summon minecraft:item_display run function sanctuary_ench:giant/axe_init
