@@ -1,7 +1,6 @@
 {
     "values": [
         "general:load",
-        "npc_system:load",
         "sanctuary_ench:load"
     ]
 }
