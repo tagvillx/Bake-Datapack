@@ -8,6 +8,9 @@ scoreboard objectives add s_ench.golden_butter dummy "黃金奶油繼承數"
 # 增生
 scoreboard objectives add s_ench.trident_copy.drop minecraft.dropped:minecraft.trident "三叉戟丟棄次數 增生"
 
+# 橫掃
+scoreboard objectives add s_ench.trident_sweep.animation dummy "橫掃的動畫時間"
+
 # 重擊
 scoreboard objectives add s_ench.giant.motion_y dummy "是否下墜(重擊)"
 scoreboard objectives add s_ench.giant.axe_time dummy "斧頭持續時間"
