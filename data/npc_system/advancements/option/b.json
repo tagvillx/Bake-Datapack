@@ -1,0 +1,25 @@
+{
+  "rewards": {
+    "function": "npc_system:common/option/b"
+  },
+  "criteria": {
+    "interacted": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"npc.option_b\"]}"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "scores": {
+              "npc.state": 2
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

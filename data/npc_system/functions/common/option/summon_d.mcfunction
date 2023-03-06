@@ -1,0 +1,3 @@
+summon minecraft:interaction ~ ~ ~ {Tags:["npc.tag","npc.option","npc.option_d","npc.this"],width:1.0f,height:0.25f}
+summon minecraft:text_display ~ ~ ~ {Tags:["npc.tag","npc.option","npc.option_d","npc.this"],text:'{"color":"black","text":""}',billboard:"vertical",background:2147483647,transformation:{translation:[0.0f,0.0f,0.5f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.8f,0.8f,0.8f],right_rotation:[0.0f,0.0f,0.0f,1.0f]}}
+data modify entity @e[limit=1,type=minecraft:text_display,tag=npc.option_d,tag=npc.this] text set value '{"color":"black","text":"","extra":[{"nbt":"data.Options[3].Option","entity":"@e[limit=1,type=minecraft:marker,tag=npc.this]","interpret":true}]}'
