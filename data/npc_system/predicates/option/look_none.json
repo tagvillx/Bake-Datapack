@@ -8,7 +8,7 @@
           "type": "player",
           "looking_at": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"npc.option\"]}"
+            "nbt": "{Tags:[\"npc.option\",\"npc.this\"]}"
           }
         }
       },
