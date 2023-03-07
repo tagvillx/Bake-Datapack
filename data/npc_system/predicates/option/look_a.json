@@ -6,7 +6,7 @@
         "type": "player",
         "looking_at": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"npc.option_a\"]}"
+          "nbt": "{Tags:[\"npc.option_a\",\"npc.this\"]}"
         }
       }
     },
