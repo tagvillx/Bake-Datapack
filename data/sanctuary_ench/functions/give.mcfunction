@@ -7,7 +7,7 @@ give @s iron_sword{sanctuary_enchs:[{id:"golden_butter",lvl:1s}]}
 # 飛刀
 give @s iron_sword{sanctuary_enchs:[{id:"throw",lvl:1s}]}
 
-# 重擊
+# 重劈
 give @s iron_sword{sanctuary_enchs:[{id:"heave_strike",lvl:1s}]}
 
 # 巨斧
