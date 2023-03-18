@@ -14,3 +14,6 @@ scoreboard objectives add s_ench.trident_sweep.animation dummy "橫掃的動畫�
 # 重擊
 scoreboard objectives add s_ench.giant.motion_y dummy "是否下墜(重擊)"
 scoreboard objectives add s_ench.giant.axe_time dummy "斧頭持續時間"
+
+# 重劈
+scoreboard objectives add s_ench.heavy_strike dummy "重劈次數"
