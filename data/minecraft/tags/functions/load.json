@@ -2,6 +2,7 @@
     "values": [
         "general:load",
         "npc_system:load",
+        "quest:load",
         "sanctuary_ench:load"
     ]
 }
