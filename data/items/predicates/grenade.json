@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{Item:{CustomPotionEffects: [{Id: 26, Amplifier: -127}]}}"
+      "nbt": "{Item:{tag:{CustomPotionEffects: [{Id: 26, Amplifier: -127}]}}}"
     }
   }
   
