@@ -3,6 +3,7 @@
         "general:load",
         "npc_system:load",
         "quest:load",
-        "sanctuary_ench:load"
+        "sanctuary_ench:load",
+        "items:load"
     ]
 }
