@@ -2,3 +2,5 @@
 
 execute as @e[type=#items:test,predicate=items:grenade] at @s run function items:item/grenade/summon
 function items:item/grenade/tick
+
+schedule function items:tick 1t
