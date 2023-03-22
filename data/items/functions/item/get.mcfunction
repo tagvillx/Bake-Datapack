@@ -1,0 +1,1 @@
+give @s splash_potion{CustomPotionEffects: [{Id: 26, Amplifier: -127, Duration: 1000}], HideFlags: 32, display: {Name: '{"text": "手榴彈","color": "#0f7d37"}'}}
