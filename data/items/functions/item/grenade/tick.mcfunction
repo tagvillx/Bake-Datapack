@@ -1,2 +1,2 @@
-execute if entity @e[type=item,tag=grenade,predicate=items:cooldown] run summon tnt ~ ~ ~ {Fuse: 0}
-execute if entity @e[type=item,tag=grenade,predicate=items:0motion] run summon tnt ~ ~ ~ {Fuse: 0}
+execute as @s if entity @e[type=item,tag=grenade,predicate=items:cooldown] at @s run function items:item/grenade/boom
+execute as @s if entity @e[type=item,tag=grenade,predicate=items:0motion] at @s run function items:item/grenade/boom
