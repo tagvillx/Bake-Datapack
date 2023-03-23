@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "attack":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player":{
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{sanctuary_enchs:[{id:\"heave_strike\",lvl:1s}]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sanctuary_ench:heavy_strike/attack"
+    }
+}
