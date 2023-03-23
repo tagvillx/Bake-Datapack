@@ -9,7 +9,10 @@ tag @e[tag=npc.test_radio] add npc.this
 data modify storage npc_system:dialogue This set from storage npc_system:dialogue test_radio
 
 # 3. 若有符合特殊對話之條件(例如任務說明與交付等)，將於此處偵測並成為接下來的對話，順序越前面優先度越高
-#execute if score @s <quest_ID> matches 1 unless data storage npc_system:dialogue This.Dialogue run data modify storage npc_system:dialogue This.Dialogue set from storage quest:dialogue <quest_ID>.<stage>
+#execute if score @s quest.<quest_ID> matches 1 unless data storage npc_system:dialogue This.Dialogue run data modify storage npc_system:dialogue This.Dialogue set from storage quest:dialogue <quest_ID>.<stage>
+execute if score $demo.mysterious_stone quest.state matches 1 unless data storage npc_system:dialogue This.Dialogue run data modify storage npc_system:dialogue This.Dialogue set from storage quest:dialogue demo.mysterious_stone.Start
+execute if score $demo.mysterious_stone quest.state matches 2 unless data storage npc_system:dialogue This.Dialogue run data modify storage npc_system:dialogue This.Dialogue set from storage quest:dialogue demo.mysterious_stone.Start_Remind
+execute if score $demo.mysterious_stone quest.state matches 3 run function npc_system:npc/test_radio/check_stone
 
 # 4. 執行開始對話之通用函式
 function npc_system:common/start
