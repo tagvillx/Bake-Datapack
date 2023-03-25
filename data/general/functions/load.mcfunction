@@ -9,6 +9,12 @@ execute unless score $playerCount general.id = $playerCount general.id run score
 scoreboard players set $system general.shareQuest 0
 
 data remove storage npc_system:quest Players
+data remove storage npc_system:dialogue test_radio
+data remove storage npc_system:dialogue test_endsky
+data remove storage npc_system:dialogue This
+data remove storage quest:dialogue demo
+kill @e[tag=npc.test_radio]
+kill @e[tag=npc.test_endsky]
 
 # 強制載入(0, 0)區塊，要注意別把需要使用的方塊或實體放到(0, 0)~(15, 15)以外的區域喔，因為很可能會偵測不到
 forceload add 0 0
