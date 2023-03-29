@@ -1,4 +1,4 @@
-advancement revoke @s only npc_system:option/a
+advancement revoke @s only npc_system:common/option_a
 tag @s add npc.user
 scoreboard players operation $temp npc.user = @s general.id
 execute as @e[tag=npc.tag] if score @s npc.user = $temp npc.user run tag @s add npc.this
