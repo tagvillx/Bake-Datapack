@@ -1,0 +1,20 @@
+{
+  "parent": "quest:demo/mysterious_stone/endsky",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "神奇石頭搬運工-任務結束",
+    "description": "這個任務獎勵...是認真的嗎?",
+    "announce_to_chat": false,
+    "frame": "goal",
+    "hidden": true,
+    "show_toast": true
+  }
+}

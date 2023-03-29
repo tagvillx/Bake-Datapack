@@ -1,0 +1,8 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": ["           ",{"nbt":"tmp","storage": "general:gcm","interpret": true},{"nbt":"str","storage": "general:gcm"}]
+    }
+]
+  
