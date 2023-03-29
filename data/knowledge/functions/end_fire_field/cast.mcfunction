@@ -1,0 +1,1 @@
+scoreboard players set @s knowledge.end_fire_field 600
