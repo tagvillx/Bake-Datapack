@@ -1,5 +1,5 @@
 # 當進度觸發時，檢查冷卻時間與消耗
-execute store result score $cd_ok knowledge unless score @s knowledge.cd.end_fire_field matches 1..
+execute store result score $cd_ok knowledge unless score @s knowledge.cd.fire_field matches 1..
 execute if score $cd_ok knowledge matches 1 run xp add @s -10 points
 
 # 檢查通過時，施放

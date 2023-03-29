@@ -7,6 +7,9 @@ scoreboard players set @a knowledge.use 0
 scoreboard players remove @a[scores={knowledge.cd.fire_ball=1..}] knowledge.cd.fire_ball 1
 scoreboard players remove @a[scores={knowledge.cd.fire_fan=1..}] knowledge.cd.fire_fan 1
 scoreboard players remove @a[scores={knowledge.cd.fire_field=1..}] knowledge.cd.fire_field 1
+scoreboard players remove @a[scores={knowledge.cd.end_fire_ball=1..}] knowledge.cd.end_fire_ball 1
+scoreboard players remove @a[scores={knowledge.cd.end_fire_fan=1..}] knowledge.cd.end_fire_fan 1
+scoreboard players remove @a[scores={knowledge.cd.end_fire_field=1..}] knowledge.cd.end_fire_field 1
 scoreboard players remove @a[scores={knowledge.cd.fire_cannon=1..}] knowledge.cd.fire_cannon 1
 
 
