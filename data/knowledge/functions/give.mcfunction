@@ -33,3 +33,10 @@ give @s carrot_on_a_stick{knowledge:{id:"feather_cut",lvl:1}}
 give @s carrot_on_a_stick{knowledge:{id:"air_run",lvl:1}}
 
 give @s carrot_on_a_stick{knowledge:{id:"tornado",lvl:1}}
+
+# 火焰的知識
+give @s carrot_on_a_stick{knowledge:{id:"end_fire_ball",lvl:1}}
+
+give @s carrot_on_a_stick{knowledge:{id:"end_fire_fan",lvl:1}}
+
+give @s carrot_on_a_stick{knowledge:{id:"end_fire_field",lvl:1}}

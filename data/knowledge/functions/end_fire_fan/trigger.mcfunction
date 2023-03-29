@@ -8,7 +8,7 @@ execute if score $cd_ok knowledge matches 1 run function knowledge:end_fire_fan/
 
 # 重置&冷卻
 execute if score $cd_ok knowledge matches 1 run scoreboard players set @s knowledge.cd.end_fire_fan 20
-advancement revoke @s only knowledge:fire_fan
+advancement revoke @s only knowledge:end_fire_fan
 
 item modify entity @s[scores={knowledge.mainhand=1}] weapon.mainhand knowledge:clear_use
 item modify entity @s[scores={knowledge.offhand=1}] weapon.offhand knowledge:clear_use
