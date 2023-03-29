@@ -7,4 +7,4 @@ execute rotated as @e[type=marker,tag=fire_field] rotated ~120 ~ run particle fl
 execute rotated as @e[type=marker,tag=fire_field] rotated ~180 ~ run particle flame ^ ^ ^1 ^ ^20000 ^100000 0.000001 0
 execute rotated as @e[type=marker,tag=fire_field] rotated ~240 ~ run particle flame ^ ^ ^1 ^ ^20000 ^100000 0.000001 0
 execute rotated as @e[type=marker,tag=fire_field] rotated ~300 ~ run particle flame ^ ^ ^1 ^ ^20000 ^100000 0.000001 0
-execute run function knowledge:fire_field/particle
+function knowledge:fire_field/particle

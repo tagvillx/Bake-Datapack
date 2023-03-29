@@ -11,4 +11,6 @@ scoreboard players remove @a[scores={knowledge.cd.fire_cannon=1..}] knowledge.cd
 
 
 execute as @e[type=armor_stand,tag=fire_ball] at @s run function knowledge:fire_ball/tick_effect
+execute as @e[type=armor_stand,tag=end_fire_ball] at @s run function knowledge:end_fire_ball/tick_effect
 execute as @a[scores={knowledge.fire_field=1..}] at @s run function knowledge:fire_field/tick_effect
+execute as @a[scores={knowledge.end_fire_field=1..}] at @s run function knowledge:end_fire_field/tick_effect

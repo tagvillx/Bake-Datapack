@@ -3,7 +3,7 @@ execute store result score $cd_ok knowledge unless score @s knowledge.cd.end_fir
 execute if score $cd_ok knowledge matches 1 run xp add @s -10 points
 
 # 檢查通過時，施放
-execute if score $cd_ok knowledge matches 1 run function knowledge:fire_field/cast
+execute if score $cd_ok knowledge matches 1 run function knowledge:end_fire_field/cast
 
 
 # 重置&冷卻
