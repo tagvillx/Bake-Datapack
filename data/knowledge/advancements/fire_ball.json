@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "knowledge:knowledges/fire_ball"
+        "function": "knowledge:fire_ball/trigger"
     }
 }

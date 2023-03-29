@@ -2,7 +2,6 @@
     "values": [
         "general:load",
         "npc_system:load",
-        "sanctuary_ench:load",
-        "knowledge:load"
+        "sanctuary_ench:load"
     ]
 }
