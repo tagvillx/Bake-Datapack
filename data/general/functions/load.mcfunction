@@ -24,3 +24,9 @@ forceload add 0 0
 # general:gcm/ Generated Commands Manager, 網址: https://github.com/xuese0513/Generated-Commands-Manager
 # 此處為末天魔改版本，感謝雪色提供此技術
 function general:_gcm_/setup
+
+# 三角函數專用Marker，用完記得tp回0 0 0
+forceload add 0 0
+kill @e[type=marker,tag=tri]
+execute unless entity @e[type=marker,tag=tri] run summon marker 0 0 0 {Tags:["tri"]}
+
