@@ -19,5 +19,8 @@ scoreboard objectives add knowledge.fire_fan dummy "火焰扇 動畫幀"
 scoreboard objectives add knowledge.fire_field dummy "火焰領域持續時間"
 scoreboard objectives add knowledge.fire_cannon dummy "末火大砲 動畫幀"
 
+scoreboard objectives add knowledge.end_fire dummy "末火狀態 持續時間"
 scoreboard objectives add knowledge.end_fire_fan dummy "末火扇 動畫幀"
 scoreboard objectives add knowledge.end_fire_field dummy "末火領域持續時間"
+
+function knowledge:end_fire_schedule
