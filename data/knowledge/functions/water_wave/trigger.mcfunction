@@ -1,13 +1,13 @@
 # 當進度觸發時，消耗與檢查冷卻時間
-execute store result score $cd_ok knowledge unless score @s knowledge.cd.water_bubble matches 1..
+execute store result score $cd_ok knowledge unless score @s knowledge.cd.water_wave matches 1..
 execute if score $cd_ok knowledge matches 1 run xp add @s -3 points
 
 # 檢查通過時，施放
-execute if score $cd_ok knowledge matches 1 run function knowledge:water_bubble/cast
+execute if score $cd_ok knowledge matches 1 run function knowledge:water_wave/cast
 
 # 重置&冷卻
-execute if score $cd_ok knowledge matches 1 run scoreboard players set @s knowledge.cd.water_bubble 20
-advancement revoke @s only knowledge:water_bubble
+execute if score $cd_ok knowledge matches 1 run scoreboard players set @s knowledge.cd.water_wave 20
+advancement revoke @s only knowledge:water_wave
 
 item modify entity @s[scores={knowledge.mainhand=1}] weapon.mainhand knowledge:clear_use
 item modify entity @s[scores={knowledge.offhand=1}] weapon.offhand knowledge:clear_use
