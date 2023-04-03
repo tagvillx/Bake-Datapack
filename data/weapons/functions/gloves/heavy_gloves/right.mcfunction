@@ -5,4 +5,3 @@
 
 advancement revoke @s only weapons:gloves/heavy_gloves/left
 
-say 重拳右鍵
