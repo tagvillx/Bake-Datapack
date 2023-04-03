@@ -5,3 +5,4 @@
 
 advancement revoke @s only weapons:gloves/heavy_gloves/left
 
+say 1
